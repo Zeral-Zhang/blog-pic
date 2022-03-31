@@ -1,0 +1,358 @@
+<svg id="mermaidChart17" width="100%" xmlns="http://www.w3.org/2000/svg" height="100%" style="max-width:850px;" viewBox="-50 -10 850 506"><style>
+  /* Flowchart variables */
+/* Sequence Diagram variables */
+/* Gantt chart variables */
+.mermaid .label {
+  color: #333;
+}
+.node rect,
+.node circle,
+.node ellipse,
+.node polygon {
+  fill: #eee;
+  stroke: #999;
+  stroke-width: 1px;
+}
+.node.clickable {
+  cursor: pointer;
+}
+.edgePath .path {
+  stroke: #666;
+  stroke-width: 1.5px;
+}
+.edgeLabel {
+  background-color: white;
+}
+.cluster rect {
+  fill: #eaf2fb !important;
+  rx: 4 !important;
+  stroke: #26a !important;
+  stroke-width: 1px !important;
+}
+.cluster text {
+  fill: #333;
+}
+.actor {
+  stroke: #999;
+  fill: #eee;
+}
+text.actor {
+  fill: #333;
+  stroke: none;
+}
+.actor-line {
+  stroke: #666;
+}
+.messageLine0 {
+  stroke-width: 1.5;
+  stroke-dasharray: "2 2";
+  marker-end: "url(#arrowhead)";
+  stroke: #333;
+}
+.messageLine1 {
+  stroke-width: 1.5;
+  stroke-dasharray: "2 2";
+  stroke: #333;
+}
+#arrowhead {
+  fill: #333;
+}
+#crosshead path {
+  fill: #333 !important;
+  stroke: #333 !important;
+}
+.messageText {
+  fill: #333;
+  stroke: none;
+}
+.labelBox {
+  stroke: #999;
+  fill: #eee;
+}
+.labelText {
+  fill: white;
+  stroke: none;
+}
+.loopText {
+  fill: white;
+  stroke: none;
+}
+.loopLine {
+  stroke-width: 2;
+  stroke-dasharray: "2 2";
+  marker-end: "url(#arrowhead)";
+  stroke: #999;
+}
+.note {
+  stroke: #777700;
+  fill: #ffa;
+}
+.noteText {
+  fill: black;
+  stroke: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+/** Section styling */
+.section {
+  stroke: none;
+  opacity: 0.2;
+}
+.section0 {
+  fill: #7fb2e6;
+}
+.section2 {
+  fill: #7fb2e6;
+}
+.section1,
+.section3 {
+  fill: white;
+  opacity: 0.2;
+}
+.sectionTitle0 {
+  fill: #333;
+}
+.sectionTitle1 {
+  fill: #333;
+}
+.sectionTitle2 {
+  fill: #333;
+}
+.sectionTitle3 {
+  fill: #333;
+}
+.sectionTitle {
+  text-anchor: start;
+  font-size: 11px;
+  text-height: 14px;
+}
+/* Grid and axis */
+.grid .tick {
+  stroke: #e5e5e5;
+  opacity: 0.3;
+  shape-rendering: crispEdges;
+}
+.grid path {
+  stroke-width: 0;
+}
+/* Today line */
+.today {
+  fill: none;
+  stroke: #d42;
+  stroke-width: 2px;
+}
+/* Task styling */
+/* Default task */
+.task {
+  stroke-width: 2;
+}
+.taskText {
+  text-anchor: middle;
+  font-size: 11px;
+}
+.taskTextOutsideRight {
+  fill: #333;
+  text-anchor: start;
+  font-size: 11px;
+}
+.taskTextOutsideLeft {
+  fill: #333;
+  text-anchor: end;
+  font-size: 11px;
+}
+/* Specific task settings for the sections*/
+.taskText0,
+.taskText1,
+.taskText2,
+.taskText3 {
+  fill: white;
+}
+.task0,
+.task1,
+.task2,
+.task3 {
+  fill: #26a;
+  stroke: #194c7f;
+}
+.taskTextOutside0,
+.taskTextOutside2 {
+  fill: #333;
+}
+.taskTextOutside1,
+.taskTextOutside3 {
+  fill: #333;
+}
+/* Active task */
+.active0,
+.active1,
+.active2,
+.active3 {
+  fill: #eee;
+  stroke: #194c7f;
+}
+.activeText0,
+.activeText1,
+.activeText2,
+.activeText3 {
+  fill: #333 !important;
+}
+/* Completed task */
+.done0,
+.done1,
+.done2,
+.done3 {
+  stroke: #666;
+  fill: #bbb;
+  stroke-width: 2;
+}
+.doneText0,
+.doneText1,
+.doneText2,
+.doneText3 {
+  fill: #333 !important;
+}
+/* Tasks on the critical line */
+.crit0,
+.crit1,
+.crit2,
+.crit3 {
+  stroke: #b1361b;
+  fill: #d42;
+  stroke-width: 2;
+}
+.activeCrit0,
+.activeCrit1,
+.activeCrit2,
+.activeCrit3 {
+  stroke: #b1361b;
+  fill: #eee;
+  stroke-width: 2;
+}
+.doneCrit0,
+.doneCrit1,
+.doneCrit2,
+.doneCrit3 {
+  stroke: #b1361b;
+  fill: #bbb;
+  stroke-width: 2;
+  cursor: pointer;
+}
+.doneCritText0,
+.doneCritText1,
+.doneCritText2,
+.doneCritText3 {
+  fill: #333 !important;
+}
+.activeCritText0,
+.activeCritText1,
+.activeCritText2,
+.activeCritText3 {
+  fill: #333 !important;
+}
+.titleText {
+  text-anchor: middle;
+  font-size: 18px;
+  fill: #333;
+}
+g.classGroup text {
+  fill: #999;
+  stroke: none;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-size: 10px;
+}
+g.classGroup rect {
+  fill: #eee;
+  stroke: #999;
+}
+g.classGroup line {
+  stroke: #999;
+  stroke-width: 1;
+}
+svg .classLabel .box {
+  stroke: none;
+  stroke-width: 0;
+  fill: #eee;
+  opacity: 0.5;
+}
+svg .classLabel .label {
+  fill: #999;
+  font-size: 10px;
+}
+.relation {
+  stroke: #999;
+  stroke-width: 1;
+  fill: none;
+}
+.composition {
+  fill: #999;
+  stroke: #999;
+  stroke-width: 1;
+}
+#compositionStart {
+  fill: #999;
+  stroke: #999;
+  stroke-width: 1;
+}
+#compositionEnd {
+  fill: #999;
+  stroke: #999;
+  stroke-width: 1;
+}
+.aggregation {
+  fill: #eee;
+  stroke: #999;
+  stroke-width: 1;
+}
+#aggregationStart {
+  fill: #eee;
+  stroke: #999;
+  stroke-width: 1;
+}
+#aggregationEnd {
+  fill: #eee;
+  stroke: #999;
+  stroke-width: 1;
+}
+#dependencyStart {
+  fill: #999;
+  stroke: #999;
+  stroke-width: 1;
+}
+#dependencyEnd {
+  fill: #999;
+  stroke: #999;
+  stroke-width: 1;
+}
+#extensionStart {
+  fill: #999;
+  stroke: #999;
+  stroke-width: 1;
+}
+#extensionEnd {
+  fill: #999;
+  stroke: #999;
+  stroke-width: 1;
+}
+.node text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+div.mermaidTooltip {
+  position: absolute;
+  text-align: center;
+  max-width: 200px;
+  padding: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  background: #eaf2fb;
+  border: 1px solid #26a;
+  border-radius: 2px;
+  pointer-events: none;
+  z-index: 100;
+}
+
+svg {
+  color: rgb(44, 62, 80);
+  font: 14px -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+  </style><g></g><g><line id="actor46" x1="75" y1="5" x2="75" y2="495" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="0" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="75" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="75" dy="0">用户</tspan></text></g><g><line id="actor47" x1="275" y1="5" x2="275" y2="495" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="200" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="275" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="275" dy="0">提案节点</tspan></text></g><g><line id="actor48" x1="475" y1="5" x2="475" y2="495" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="400" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="475" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="475" dy="0">决策节点</tspan></text></g><g><line id="actor49" x1="675" y1="5" x2="675" y2="495" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="600" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="675" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="675" dy="0">记录节点</tspan></text></g><defs><marker id="arrowhead" refX="5" refY="2" markerWidth="6" markerHeight="4" orient="auto"><path d="M 0,0 V 4 L6,2 Z"></path></marker></defs><defs><marker id="crosshead" markerWidth="15" markerHeight="8" orient="auto" refX="16" refY="4"><path fill="black" stroke="#000000" stroke-width="1px" d="M 9,2 V 6 L16,4 Z" style="stroke-dasharray: 0, 0;"></path><path fill="none" stroke="#000000" stroke-width="1px" d="M 0,1 L 6,7 M 6,1 L 0,7" style="stroke-dasharray: 0, 0;"></path></marker></defs><g><text x="175" y="93" class="messageText" style="text-anchor: middle;">操作请求</text><line x1="75" y1="100" x2="275" y2="100" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></line></g><g><text x="375" y="128" class="messageText" style="text-anchor: middle;">构造新的提案ID(n)，广播Prepare(n)请求</text><line x1="275" y1="135" x2="475" y2="135" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></line></g><g><text x="375" y="163" class="messageText" style="text-anchor: middle;">首次设值，返回Promise(n, null)应答</text><line x1="475" y1="170" x2="275" y2="170" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="stroke-dasharray: 3, 3; fill: none;"></line></g><g><text x="375" y="223" class="messageText" style="text-anchor: middle;">返回Promise(acceptedProposalID、acceptedValue)应答</text><line x1="475" y1="230" x2="275" y2="230" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="stroke-dasharray: 3, 3; fill: none;"></line></g><g><text x="275" y="258" class="messageText" style="text-anchor: middle;">将acceptedValue作为提案的value</text><path d="M 275,265 C 335,255 335,295 275,285" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></path></g><g><line x1="157.203125" y1="180" x2="485" y2="180" class="loopLine"></line><line x1="485" y1="180" x2="485" y2="305" class="loopLine"></line><line x1="157.203125" y1="305" x2="485" y2="305" class="loopLine"></line><line x1="157.203125" y1="180" x2="157.203125" y2="305" class="loopLine"></line><polygon points="157.203125,180 207.203125,180 207.203125,193 198.803125,200 157.203125,200" class="labelBox"></polygon><text x="164.703125" y="195" fill="black" class="labelText"><tspan x="164.703125" fill="black">opt</tspan></text><text x="321.1015625" y="195" fill="black" class="loopText" style="text-anchor: middle;"><tspan x="321.1015625" fill="black">[ 非首次设值 ]</tspan></text></g><g><text x="375" y="333" class="messageText" style="text-anchor: middle;">广播Accept(id, value)请求</text><line x1="275" y1="340" x2="475" y2="340" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></line></g><g><text x="375" y="368" class="messageText" style="text-anchor: middle;">返回Accepted(id, value)应答</text><line x1="475" y1="375" x2="275" y2="375" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="stroke-dasharray: 3, 3; fill: none;"></line></g><g><text x="475" y="403" class="messageText" style="text-anchor: middle;">形成决议，供记录节点学习</text><line x1="275" y1="410" x2="675" y2="410" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></line></g><g><rect x="0" y="430" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="75" y="462.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="75" dy="0">用户</tspan></text></g><g><rect x="200" y="430" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="275" y="462.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="275" dy="0">提案节点</tspan></text></g><g><rect x="400" y="430" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="475" y="462.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="475" dy="0">决策节点</tspan></text></g><g><rect x="600" y="430" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="675" y="462.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="675" dy="0">记录节点</tspan></text></g></svg>
