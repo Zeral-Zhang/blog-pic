@@ -1,0 +1,55 @@
+<svg width="484" height="370" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" enable-background="new 0 0 177.4 132.2" version="1.0">
+
+ <g>
+  <title>Layer 1</title>
+  <g id="Art"/>
+  <g stroke="null" id="Layer_2">
+   <path stroke="#000000" id="svg_1" d="m442.59974,224.96648c0,11.55047 -9.01592,20.84719 -20.21752,20.84719l-366.37423,0c-11.2016,0 -20.49073,-9.29672 -20.49073,-20.84719l0,-97.19297c0,-11.55047 9.01592,-20.84719 20.49073,-20.84719l366.37423,0c11.2016,0 20.21752,9.29672 20.21752,20.84719l0,97.19297z" stroke-width="0.5" fill="none"/>
+   <rect stroke="null" id="svg_2" height="37.18687" width="107.37142" fill="#FFFFFF" y="88.33289" x="65.02391"/>
+   <rect stroke="null" id="svg_3" height="37.18687" width="67.75601" fill="#FFFFFF" y="88.33289" x="346.15671"/>
+   <text stroke="null" x="0" y="-0.92815" id="svg_4" font-size="8" font-family="'ArialMT'" transform="matrix(2.7321 0 0 2.81719 74.9712 115.147)">zset-key</text>
+   <text stroke="null" x="0" y="-0.92815" id="svg_5" font-size="8" font-family="'ArialMT'" transform="matrix(2.7321 0 0 2.81719 365.016 115.147)">zset</text>
+   <line stroke="#000000" id="svg_6" y2="133.40788" x2="442.59974" y1="133.40788" x1="35.51726" stroke-width="0.5" fill="none"/>
+   <text stroke="null" x="0" y="-0.92815" id="svg_7" font-size="8" font-family="'ArialMT'" fill="#808080" transform="matrix(2.7321 0 0 2.81719 32.3262 23.4836)">Key name</text>
+   <text stroke="null" x="0" y="-0.92815" id="svg_8" transform="matrix(2.7321 0 0 2.81719 0 312.317)">
+    <tspan stroke="null" id="svg_9" font-size="8" font-family="'ArialMT'" fill="#808080" y="0" x="0">Named members,</tspan>
+    <tspan stroke="null" id="svg_10" font-size="8" font-family="'ArialMT'" fill="#808080" y="8.60737" x="12.7">ordered by</tspan>
+    <tspan stroke="null" id="svg_11" font-size="8" font-family="'ArialMT'" fill="#808080" y="18.60737" x="1.8">associated score</tspan>
+   </text>
+   <text stroke="null" x="0" y="-0.92815" id="svg_12" transform="matrix(2.7321 0 0 2.81719 281.604 306.075)">
+    <tspan stroke="null" id="svg_13" font-size="8" font-family="'ArialMT'" fill="#808080" y="0" x="0">Scores, ordered</tspan>
+    <tspan stroke="null" id="svg_14" font-size="8" font-family="'ArialMT'" fill="#808080" y="8.60737" x="-1.8">by numeric value</tspan>
+   </text>
+   <text stroke="null" x="0" y="-0.92815" id="svg_15" font-size="8" font-family="'ArialMT'" fill="#808080" transform="matrix(2.7321 0 0 2.81719 354.067 22.9554)">Type of value</text>
+   <text stroke="null" x="0" y="-0.92815" id="svg_16" font-size="8" font-family="'ArialMT'" transform="matrix(2.7321 0 0 2.81719 74.9712 180.724)">member1</text>
+   <text stroke="null" x="0" y="-0.92815" id="svg_17" font-size="8" font-family="'ArialMT'" transform="matrix(2.7321 0 0 2.81719 307.926 180.724)">728</text>
+   <text stroke="null" x="0" y="-0.92815" id="svg_18" font-size="8" font-family="'ArialMT'" transform="matrix(2.7321 0 0 2.81719 74.9712 215.625)">member0</text>
+   <text stroke="null" x="0" y="-0.92815" id="svg_19" font-size="8" font-family="'ArialMT'" transform="matrix(2.7321 0 0 2.81719 307.925 215.625)">982</text>
+   <line stroke="#949494" id="svg_20" y2="246.09538" x2="239.0585" y1="133.40788" x1="239.0585" stroke-dasharray="3" stroke-width="0.5" fill="none"/>
+   <g stroke="null" id="svg_21">
+    <g stroke="null" id="svg_22">
+     <path stroke="#949494" id="svg_23" d="m82.78254,31.98914c5.19098,25.63641 28.1406,24.50953 30.05307,45.35672" stroke-linejoin="round" stroke-width="0.5" fill="none"/>
+     <path stroke="null" id="svg_24" d="m114.47487,80.44476c0.54642,-2.25375 1.09284,-3.94406 1.63926,-5.91609l-6.83024,0.56344c0.27321,0.56344 1.63926,3.38062 2.45889,5.63437c0.81963,2.53547 1.63926,4.5075 1.91247,6.19781c0,-1.69031 0.27321,-3.94406 0.81963,-6.47953z" fill="#949494"/>
+    </g>
+   </g>
+   <g stroke="null" id="svg_25">
+    <g stroke="null" id="svg_26">
+     <path stroke="#949494" id="svg_27" d="m419.65012,27.76336c0.54642,29.01703 -32.78517,27.32672 -32.78517,54.37172" stroke-linejoin="round" stroke-width="0.5" fill="none"/>
+     <path stroke="null" id="svg_28" d="m388.50422,85.5157c0.54642,-2.25375 1.36605,-3.94406 1.91247,-5.63437l-6.83024,0c0.27321,0.56344 1.36605,3.38062 2.18568,5.63437c0.81963,2.53547 1.36605,4.78922 1.36605,6.19781c0,-1.40859 0.54642,-3.66234 1.36605,-6.19781z" fill="#949494"/>
+    </g>
+   </g>
+   <g stroke="null" id="svg_29">
+    <g stroke="null" id="svg_30">
+     <path stroke="#949494" id="svg_31" d="m359.27078,281.59195c-5.19098,-25.63641 -28.1406,-24.50953 -30.05307,-45.35672" stroke-linejoin="round" stroke-width="0.5" fill="none"/>
+     <path stroke="null" id="svg_32" d="m327.85166,232.8546c-0.54642,2.25375 -1.09284,3.94406 -1.63926,5.91609l6.83024,-0.56344c-0.27321,-0.56344 -1.63926,-3.38062 -2.45889,-5.63437c-0.81963,-2.53547 -1.63926,-4.5075 -1.91247,-6.19781c0,1.69031 -0.27321,3.94406 -0.81963,6.47953z" fill="#949494"/>
+    </g>
+   </g>
+   <g stroke="null" id="svg_33">
+    <g stroke="null" id="svg_34">
+     <path stroke="#949494" id="svg_35" d="m86.88069,285.81773c-0.54642,-29.01703 32.78517,-27.32672 32.78517,-54.37172" stroke-linejoin="round" stroke-width="0.5" fill="none"/>
+     <path stroke="null" id="svg_36" d="m118.29981,227.78366c-0.54642,2.25375 -1.36605,3.94406 -1.91247,5.63437l6.83024,0c-0.27321,-0.56344 -1.36605,-3.38062 -2.18568,-5.63437c-0.81963,-2.53547 -1.36605,-4.78922 -1.36605,-6.19781c-0.27321,1.40859 -0.81963,3.66234 -1.36605,6.19781z" fill="#949494"/>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>
